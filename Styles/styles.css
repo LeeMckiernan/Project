@@ -1,0 +1,145 @@
+header{
+    background-image: url(../Images/Mike-tam-05-eliminationshollowstorm-v1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    color: navajowhite;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+
+#content {
+    float: left;
+    width: 80%;
+    border: 1px solid grey;
+}
+
+nav{
+    background-color: none;
+    padding: 10px;
+}
+
+nav ul{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav ul li{
+    list-style-type: none;
+    background-color: rgb(170, 167, 167);
+    display: inline;
+    padding: 15px;
+    margin:2px;
+    border:1px solid lightblue;
+    border-radius:2px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background-color: blue;
+}
+
+#active
+{
+    border: 1px solid red;
+}
+
+aside{
+    background-color: rgb(20, 19, 19);
+    float: right;
+    color: white;
+}
+
+aside ul {
+    text-align:center;
+    font-size: 1.2em;
+}
+
+aside ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+aside ul li {
+    list-style-type: none;
+}
+
+footer {
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(206, 32, 32);
+
+    text-align: center;
+}
+
+html {
+    background-color: rgb(20, 19, 19);
+}
+
+main{
+    color:white;
+    
+}
+
+
+.col_detail {
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+}
+
+.required
+{
+    font-weight:bold;
+    color:red;
+}
+
+table{
+    width: 80%;
+    border :1px solid white;
+    border-collapse: collapse;
+    font-size:x-large;
+    text-align: center;
+    vertical-align: middle;
+    padding :2px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+th,td {
+    border: 3px solid lightblue;
+    text-align: left;
+    padding: 8px;
+}
+
+thead th {
+  width: 25%;
+}
+
+.cell-highlight {
+  background-color: gold;
+  font-weight: bold;
+}
+
+.colour_tab
+{
+    color: rgb(206, 32, 32);
+}
+
+.videoContent {
+    width:100%;
+    border: 2px lightcoral;
+    max-height: 450px;
+    min-height: 450px;
+    overflow: auto;
+}
